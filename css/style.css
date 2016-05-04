@@ -1,0 +1,188 @@
+﻿/*
+.first:hover{
+	width: 150px;
+	height: 140px;
+	background: green;
+	border-radius: 50%;
+	position: relative;
+	left: 400px;
+}
+@keyframes myAnim{
+	0%{
+		position: absolute;
+		top: 0;
+		left: 0;
+	}
+	25%{
+		position: absolute;
+		top: 0;
+		left: 100px;
+	}
+	50%{
+		position: absolute;
+		top: 400px;
+		left: 400px;
+	}
+	75%{
+		position: absolute;
+		top: 400px;
+		left: 0;
+	}
+	100%{
+		position: absolute;
+		top: 0;
+		left: 0;
+	}
+}
+.first{
+	width: 300px;
+	height: 300px;
+	top: 0;
+	left: 0;
+	background: orange;
+	transition: all .5s ease;
+	animation: linear myAnim 4s infinite;
+}
+.first:hover{
+	transform: translate(250,300) skew(90deg);
+	
+}*/*/
+body{
+	position: 0;
+	padding: 0;
+	margin: 0;
+}
+.container1{
+	position: relative;
+	margin: 0;
+	padding: 0;
+	}
+.red{
+	width: 50px;
+	height: 50px;
+	background-color: red;
+	position: absolute;
+	top: 0;
+	left: 0;
+	/*transform: translate(100px,0);*/
+	animation:  square1 1s 1;
+	animation-fill-mode: forwards;
+}
+.green{
+	width: 50px;
+	height: 50px;
+	background-color: green;
+	position: absolute;
+	top: 0;
+	left: 100px;
+	/*transform: translate(100px,100px);*/
+	animation:  square2 1s 1;
+	animation-delay:2s;
+	animation-fill-mode: forwards;
+}
+.yellow{
+	width: 50px;
+	height: 50px;
+	background-color: yellow;
+	position: absolute;
+	top: 100px;
+	left: 100px;
+	/*transform: translate(-100px,0);*/
+	animation:  square3 1s 1;
+	animation-delay:3s;
+	animation-fill-mode: forwards;
+}
+.black{
+	width: 50px;
+	height: 50px;
+	background-color: black;
+ 	position: absolute;
+ 	top: 100px;
+ 	left: 0;
+	/*transform: translate(0,-100px);*/
+	animation:  square4 1s 1;
+	animation-delay: 4s;
+	animation-fill-mode: forwards;
+} 
+
+@keyframes square1{
+	from{
+		top: 0;
+		left: 0;
+	}
+	to{
+		top: 0;
+		left: 100px;
+	}
+}
+
+@keyframes square2{
+	from{
+		top: 0;
+		left: 100px;
+	}
+	to{
+		top: 100px;
+		left: 100px;
+	}
+	
+}
+
+
+@keyframes square3{
+	from{
+	top: 100px;
+		left: 100px;
+	}
+	to{
+			top: 100px;
+		left: 0;
+	}
+	
+}
+
+@keyframes square4{
+	from{
+		top: 100px;
+		left: 0;
+	}
+	to{
+		top: 0px;
+		left: 0px;
+	}
+	
+}*/
+
+/*.custom{
+	color: orange;
+	box-shadow: 0 0 10px pink;
+	transition: all 3s ease;
+}
+.custom:hover{
+	color: green;
+	opacity: 1;
+}
+.main{
+	width: 100px;
+	height: 100px;
+	background: yellow;
+}
+.fa-5x{
+	
+}
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*/*/*/
